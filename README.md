@@ -28,7 +28,7 @@ The second set of commands are short code snippets for common TensorFlow operati
 
 Install Visual Studio Code from [here](https://code.visualstudio.com/).
 
-Install this extension by selecting `Install Extension` in the command pallette (cmd-shift-p).
+Install this extension by selecting `Install Extension` in the command pallette (cmd-shift-p) and searching for "TensorFlow Snippets".
 
 The generated code also relies on the following python dependencies:
 ```bash
