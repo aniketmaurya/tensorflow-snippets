@@ -9,7 +9,7 @@ Create trainer.py, open the file and type: `tf:trainer` enter.
 Create cnn.py, open the file and type: `tf:cnn-classifier` enter.
 Create mnist.py, open the file and type: `tf:mnist` enter.
 
-Edit trainer.py, and insert two lines in the top:
+Edit trainer.py, and insert two lines at the top:
 ```python
 import cnn
 import mnist
@@ -56,5 +56,5 @@ pip install six
 
 Users appreciate release notes as you update your extension.
 
-### 0.0.2
+### 0.0.4
 Initial release.
