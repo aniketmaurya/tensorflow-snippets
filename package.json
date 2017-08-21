@@ -4,7 +4,7 @@
     "description": "TensorFlow Snippets for VS Code",
     "version": "0.0.2",
     "publisher": "vahidk",
-	"icon": "https://github.com/vahidk/tensorflow-snippets/blob/master/images/icon.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.15.0"
     },

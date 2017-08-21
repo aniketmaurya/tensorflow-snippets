@@ -1,6 +1,6 @@
 # TensorFlow Snippets
 
-![feature X](images/icon.png)
+![feature X](https://github.com/vahidk/tensorflow-snippets/blob/master/images/icon.png)
 
 This extension includes a set of useful code snippets for developing TensorFlow models.
 
