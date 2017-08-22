@@ -67,7 +67,4 @@ Point your browser at http://localhost:6006.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 0.1.0
-Initial release.
+Added CIFAR 10 and CIFAR 100 datasets.
