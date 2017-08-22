@@ -69,5 +69,5 @@ Point your browser at http://localhost:6006.
 
 Users appreciate release notes as you update your extension.
 
-### 0.0.5
+### 0.1.0
 Initial release.
