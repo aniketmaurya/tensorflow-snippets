@@ -8,20 +8,28 @@ See [Getting started](#get-started) for a quick tutorial on how to use this exte
 
 ## Features
 
-The extension includes two sets of snippets. The first are used to generate a framework for training neural networks:
+The extension includes three sets of snippets.
 
+The first are used to generate entire python files:
 - `tf:trainer`: Generates an entire training framework based on learn API.
 - `tf:cnn-classifier`: Generates a convolutional neural network classifier.
 - `tf:mnist`: Generates data loader for mnist dataset.
+- `tf:cifar10`: Generates data loader for CIFAR10 dataset.
+- `tf:cifar100`: Generates data loader for CIFAR100 dataset.
 
-The second set of commands are short code snippets for common TensorFlow operations:
+The second set generate medium size snippets:
+- `tf:resnet-block`: Generates a ResNet block.
+
+The third set generate common TensorFlow operations:
 - `tf:import`: Imports TensorFlow package.
 - `tf:conv2d`: Defines a 2D convolution layer.
+- `tf:transposed-conv2d`: Defines a 2D convolution layer.
+- `tf:separable-conv2d`: Defines a 2D convolution layer.
 - `tf:dense`: Defines a dense (fully connected) layer.
-- `tf:maxpool2d`: Defines a max pooling layer.
+- `tf:max-pool2d`: Defines a max pooling layer.
 - `tf:dropout`: Defines a dropout layer.
+- `tf:batch-norm`: Defines a batch normalization layer.
 - `tf:cross-entropy`: Defines a softmax cross entropy loss.
-
 
 ## Installation
 <a name="installation"></a>
@@ -64,7 +72,3 @@ tensorboard --logdir=output
 ```
 
 Point your browser at http://localhost:6006.
-
-## Release Notes
-
-Added CIFAR 10 and CIFAR 100 datasets.
