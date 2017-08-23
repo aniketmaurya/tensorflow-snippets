@@ -23,8 +23,8 @@ The second set generate medium size snippets:
 The third set generate common TensorFlow operations:
 - `tf:import`: Imports TensorFlow package.
 - `tf:conv2d`: Defines a 2D convolution layer.
-- `tf:transposed-conv2d`: Defines a 2D convolution layer.
-- `tf:separable-conv2d`: Defines a 2D convolution layer.
+- `tf:transposed-conv2d`: Defines a transposed 2D convolution layer.
+- `tf:separable-conv2d`: Defines a separable 2D convolution layer.
 - `tf:dense`: Defines a dense (fully connected) layer.
 - `tf:max-pool2d`: Defines a max pooling layer.
 - `tf:dropout`: Defines a dropout layer.
